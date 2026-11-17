@@ -1,0 +1,9 @@
+soil_moisture_%,water_level_%,rain_level_%,expected_source_rule,source_rule_prediction,qwen_prediction,qwen_raw_output,qwen_correct,case
+29.9,70.0,10.0,ON,ON,ON,ON,True,soil just below 30
+30.0,70.0,10.0,OFF,OFF,OFF,OFF,True,soil exactly 30
+30.1,70.0,10.0,OFF,OFF,OFF,OFF,True,soil just above 30
+20.0,19.9,10.0,OFF,OFF,OFF,OFF,True,water just below 20
+20.0,20.0,10.0,ON,ON,OFF,OFF,False,water exactly 20
+20.0,70.0,60.0,ON,ON,ON,ON,True,rain exactly 60
+20.0,70.0,60.1,OFF,OFF,ON,ON,False,rain just above 60
+20.0,70.0,90.0,OFF,OFF,ON,ON,False,heavy rain override

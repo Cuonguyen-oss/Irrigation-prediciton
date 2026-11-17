@@ -1,0 +1,135 @@
+{
+  "selected_qwen_features": [
+    "soil_moisture_%",
+    "water_level_%",
+    "rain_level_%"
+  ],
+  "group_count": 45,
+  "group_cv_ablation": [
+    {
+      "model": "controller_3",
+      "n_features": 3,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "precision_ON": 1.0,
+      "recall_ON": 1.0,
+      "f1_ON": 1.0
+    },
+    {
+      "model": "all_6_without_humidity",
+      "n_features": 5,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "precision_ON": 1.0,
+      "recall_ON": 1.0,
+      "f1_ON": 1.0
+    },
+    {
+      "model": "controller_without_rain",
+      "n_features": 2,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "precision_ON": 1.0,
+      "recall_ON": 1.0,
+      "f1_ON": 1.0
+    },
+    {
+      "model": "all_6_without_temperature",
+      "n_features": 5,
+      "accuracy": 0.9971751412429378,
+      "balanced_accuracy": 0.9948979591836735,
+      "precision_ON": 1.0,
+      "recall_ON": 0.9897959183673469,
+      "f1_ON": 0.9948717948717949
+    },
+    {
+      "model": "all_6_without_rain",
+      "n_features": 5,
+      "accuracy": 0.9971751412429378,
+      "balanced_accuracy": 0.9948979591836735,
+      "precision_ON": 1.0,
+      "recall_ON": 0.9897959183673469,
+      "f1_ON": 0.9948717948717949
+    },
+    {
+      "model": "all_sensor_6",
+      "n_features": 6,
+      "accuracy": 0.9943502824858758,
+      "balanced_accuracy": 0.9897959183673469,
+      "precision_ON": 1.0,
+      "recall_ON": 0.9795918367346939,
+      "f1_ON": 0.9896907216494846
+    },
+    {
+      "model": "all_6_without_light",
+      "n_features": 5,
+      "accuracy": 0.9943502824858758,
+      "balanced_accuracy": 0.9897959183673469,
+      "precision_ON": 1.0,
+      "recall_ON": 0.9795918367346939,
+      "f1_ON": 0.9896907216494846
+    },
+    {
+      "model": "controller_without_soil",
+      "n_features": 2,
+      "accuracy": 0.8135593220338984,
+      "balanced_accuracy": 0.8049665178571428,
+      "precision_ON": 0.6311475409836066,
+      "recall_ON": 0.7857142857142857,
+      "f1_ON": 0.7
+    },
+    {
+      "model": "controller_without_water",
+      "n_features": 2,
+      "accuracy": 0.8163841807909604,
+      "balanced_accuracy": 0.8037707270408163,
+      "precision_ON": 0.6386554621848739,
+      "recall_ON": 0.7755102040816326,
+      "f1_ON": 0.7004608294930875
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "soil_moisture_%",
+      "mean_impurity_importance": 0.6421572403798425,
+      "std_impurity_importance": 0.0298491095077116,
+      "mean_grouped_permutation_drop_balanced_accuracy": 0.4238835170426654,
+      "std_grouped_permutation_drop_balanced_accuracy": 0.048856676851758124
+    },
+    {
+      "feature": "water_level_%",
+      "mean_impurity_importance": 0.3508089930894876,
+      "std_impurity_importance": 0.02648018454456337,
+      "mean_grouped_permutation_drop_balanced_accuracy": 0.18748593277796352,
+      "std_grouped_permutation_drop_balanced_accuracy": 0.08783111353803523
+    },
+    {
+      "feature": "light_intensity_%",
+      "mean_impurity_importance": 0.0009994319807669955,
+      "std_impurity_importance": 0.0005556191147879857,
+      "mean_grouped_permutation_drop_balanced_accuracy": 0.004166666666666696,
+      "std_grouped_permutation_drop_balanced_accuracy": 0.00833333333333339
+    },
+    {
+      "feature": "rain_level_%",
+      "mean_impurity_importance": 0.0004954932004633272,
+      "std_impurity_importance": 0.0004917853391770006,
+      "mean_grouped_permutation_drop_balanced_accuracy": 0.0016666666666666785,
+      "std_grouped_permutation_drop_balanced_accuracy": 0.003333333333333357
+    },
+    {
+      "feature": "humidity_%",
+      "mean_impurity_importance": 0.0034858451164076947,
+      "std_impurity_importance": 0.0036748756826838294,
+      "mean_grouped_permutation_drop_balanced_accuracy": 0.0016666666666666785,
+      "std_grouped_permutation_drop_balanced_accuracy": 0.003333333333333357
+    },
+    {
+      "feature": "temperature_C",
+      "mean_impurity_importance": 0.0020529962330319753,
+      "std_impurity_importance": 0.001308958596554221,
+      "mean_grouped_permutation_drop_balanced_accuracy": 0.0,
+      "std_grouped_permutation_drop_balanced_accuracy": 0.0
+    }
+  ]
+}

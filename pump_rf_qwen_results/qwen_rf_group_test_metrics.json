@@ -1,0 +1,94 @@
+{
+  "qwen": {
+    "accuracy": 1.0,
+    "parse_success_rate": 1.0,
+    "balanced_accuracy": 1.0,
+    "precision_ON": 1.0,
+    "recall_ON": 1.0,
+    "f1_ON": 1.0,
+    "confusion_matrix_labels": [
+      "OFF",
+      "ON",
+      "UNKNOWN"
+    ],
+    "confusion_matrix": [
+      [
+        52,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "random_forest": {
+    "accuracy": 1.0,
+    "parse_success_rate": 1.0,
+    "balanced_accuracy": 1.0,
+    "precision_ON": 1.0,
+    "recall_ON": 1.0,
+    "f1_ON": 1.0,
+    "confusion_matrix_labels": [
+      "OFF",
+      "ON",
+      "UNKNOWN"
+    ],
+    "confusion_matrix": [
+      [
+        52,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "source_rule": {
+    "accuracy": 1.0,
+    "parse_success_rate": 1.0,
+    "balanced_accuracy": 1.0,
+    "precision_ON": 1.0,
+    "recall_ON": 1.0,
+    "f1_ON": 1.0,
+    "confusion_matrix_labels": [
+      "OFF",
+      "ON",
+      "UNKNOWN"
+    ],
+    "confusion_matrix": [
+      [
+        52,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "test_rows": 72,
+  "test_groups": 9
+}

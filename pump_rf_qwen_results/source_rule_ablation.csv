@@ -1,0 +1,5 @@
+rule_variant,accuracy
+full_source_rule,1.0
+rule_without_rain_condition,1.0
+rule_without_water_condition,0.8248587570621468
+rule_without_soil_condition,0.632768361581921

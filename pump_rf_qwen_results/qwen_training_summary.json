@@ -1,0 +1,18 @@
+{
+  "base_model": "/kaggle/input/models/qwen-lm/qwen2.5/transformers/1.5b/1",
+  "best_checkpoint": "/kaggle/working/pump_rf_qwen/qwen_pump_lora/checkpoint-203",
+  "best_metric": 4.363896096037934e-06,
+  "train_metrics": {
+    "train_runtime": 1561.2047,
+    "train_samples_per_second": 1.013,
+    "train_steps_per_second": 0.13,
+    "total_flos": 2404874273292288.0,
+    "train_loss": 0.14742348186276108,
+    "epoch": 7.0
+  },
+  "best_validation_metrics": {
+    "eval_loss": 4.363896096037934e-06
+  },
+  "epochs_configured": 10,
+  "epochs_completed": 7.0
+}
